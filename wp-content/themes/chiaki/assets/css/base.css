@@ -1,0 +1,12 @@
+:root {
+    --primary-color: #604775;
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --border-color: #dbdbdb;
+
+    --header-heght: 120px;
+
+    --navbar-height: 34px;
+}
+

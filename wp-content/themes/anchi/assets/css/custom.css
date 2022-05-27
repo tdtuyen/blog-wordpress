@@ -1,0 +1,198 @@
+.ecademy-responsive-nav {
+    display: none;
+}
+
+.navbar-nav li a {
+    background-color: transparent !important;
+    color: #3e3f42;
+    font-size: 16.5px;
+    font-weight: 700;
+    margin-left: 35px;
+    margin-right: 15px;
+}
+
+.anchi-nav .navbar .navbar-nav .nav-item a::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    transition: 0.5s;
+    transform: scaleX(0)
+}
+
+.anchi-nav .navbar .navbar-nav .nav-item.active a::before,
+.anchi-nav .navbar .navbar-nav .nav-item:hover a::before {
+    transform: scaleX(1);
+    background-image: -o-linear-gradient(179deg, #b57b31 20%, #f6bc2c 39%);
+    background-image: linear-gradient(271deg, #b57b31 20%, #f6bc2c 39%)
+}
+
+
+
+.ringphone {
+    background-color: #EAF1F7;
+    border-radius: 20px;
+    margin-right: 15px;
+    max-width: 40px;
+    min-width: 40px;
+    flex-grow: 1;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*font-family: SVN-AirbnbCereal;*/
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #337ab7
+}
+
+.user-box {
+    width: 77px;
+    height: 42px;
+    display: inline-block;
+    padding: 5px 5px 5px 14px;
+    border-radius: 21px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    border: solid 1px #c8c8c8;
+    background-color: #ffffff;
+}
+
+.user-box .dashicons-menu {
+    color: #484848;
+    line-height: 31px;
+}
+
+.user-img {
+    display: inline-block;
+}
+
+.user-img img {
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+}
+
+
+.dropdown-content {
+    min-width: 170px;
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+    z-index: 1000;
+    border-radius: 5px;
+}
+
+.dropdown-content a {
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    color: #3e3f42;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.search-box {
+    margin-left: 50px;
+    position: relative;
+    border-radius: 5px;
+    margin-right: 35px;
+    flex-grow: 1;
+}
+
+.input-search {
+    display: block;
+    width: 0;
+    height: 40px;
+    border: none;
+    transition: 0.5s;
+    color: #3e3f42;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    /*padding: 25px 1px 0 0;*/
+    float: right;
+}
+
+::placeholder {
+    padding-left: 50px;
+    padding-bottom: 15px;
+}
+
+.search-box:focus .input-search,
+.search-box:active .input-search,
+.search-box:hover .input-search {
+    width: 100%;
+    padding: 25px 1px 0 0;
+    background-color: #EAF1F7;
+    outline: none;
+}
+
+button {
+    position: absolute;
+    right: -20px;
+    top: 0;
+    background-color: transparent;
+    border: none;
+    padding: 0 !important;
+}
+
+.search-box i {
+    font-size: 16px;
+    color: #337ab7;
+    border-radius: 50%;
+    background: #EAF1F7;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: block;
+    line-height: 40px;
+}
+
+.courses {
+    display: flex;
+    width: 100%;
+}
+
+.courses .course {
+    width: calc((100% - 120px)/4);
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.courses .course-image-area {
+    display: inline-block;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.courses .course-image {
+    width: 100%;
+    display: block;
+    margin-bottom: 0;
+    border-radius: 10px;
+    object-fit: cover;
+    background: white;
+    height: 160px;
+}
+

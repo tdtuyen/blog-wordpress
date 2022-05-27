@@ -1,0 +1,383 @@
+#header .logo {
+    padding: 5px 0 5px 50px;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+nav {
+    background-color: var(--primary-color);
+}
+
+.main-menu {
+    display: flex;
+    padding-left: 50px;
+}
+
+.menu li {
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 100px;
+    text-align: center;
+}
+
+.menu li:hover a {
+    background: #bd9bc4;
+    color: var(--black-color);
+    transition: all 0.3s;
+}
+
+/*ul>:nth-child(n+2)>a:before{*/
+/*    content:"";*/
+/*    border-left:1px solid black;*/
+
+/*}*/
+#toggle {
+    display: none;
+    background: var(--primary-color);
+    color: #fff;
+    text-align: right;
+    padding-right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    height: 40px;
+    line-height: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .main-menu {
+        padding-left: 0;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu li a {
+        border-top: 1px solid var(--white-color);
+    }
+
+    #toggle {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+}
+
+
+.mySlides {
+    display: none;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.mySlides img {
+    vertical-align: middle;
+    height: 250px;
+    width: 100%;
+}
+
+/* Caption text */
+.text {
+    color: #FFA500;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #FFA500;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .text {
+        font-size: 11px
+    }
+}
+.title {
+    color: var(--primary-color);
+    padding: 20px;
+}
+.course {
+    border: 1px dashed var(--primary-color);
+    padding: 10px;
+    min-height: 400px;
+}
+
+.course-image-area {
+    display: inline-block;
+    border-radius: 10px;
+    position: relative;
+}
+.course-image {
+    border-radius: 10px;
+    max-width: 100%;
+    height: 200px;
+    max-height: 100%;
+    object-fit: cover;
+    background: white;
+}
+
+.course-price {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 6px 10px;
+    background-color: #e59e32;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    border-top-left-radius: 6px;
+}
+
+#footer {
+    background: var(--primary-color);
+    margin-top: 50px;
+    min-height: 100px;
+    text-align: center;
+    color: var(--white-color);
+    padding: 20px;
+}
+
+.auth-form {
+    width: 500px;
+    background-color: var(--white-color);
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+.auth-form--container {
+    padding: 0 32px;
+}
+
+.auth-form__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12px;
+    margin-top: 10px;
+}
+
+.auth-form__heading {
+    font-size: 2.2rem;
+    font-weight: 900;
+    color: var(--text-color);
+}
+
+.auth-form__switch-btn {
+    font-size: 1.6rem;
+    color: var(--primary-color);
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.auth-form__form {
+
+}
+
+.auth-form__group {
+
+}
+
+.auth-form__input {
+    width: 100%;
+    height: 40px;
+    margin-top: 16px;
+    padding: 0 12px;
+    font-size: 1.6rem;
+    background-color: 1px solid var(--border-color);
+    outline: none;
+    border-radius: 2px;
+}
+
+.auth-form__input:focus {
+    border-color: red;
+}
+
+.auth-form__aside {
+    margin-top: 18px;
+}
+
+.auth-form__policy-text {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    text-align: center;
+}
+
+.auth-form__text-link {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.auth-form__controls {
+    margin-top: 80px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.auth-form__controls-back {
+    margin-right: 15px;
+}
+
+.auth-form__socials {
+    background-color: #f5f5f5;
+    padding: 12px 36px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.auth-form__socials-icon {
+    font-size: 1.8rem;
+    color: var(--white-color);
+}
+
+.auth-form__socials-facebook {
+    background-color: blue;
+}
+
+.auth-form__socials-google {
+    background-color: blue;
+}
+
+.auth-form__socials-title {
+    margin: 0 36px;
+}
+
+.auth-form__help {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.auth-form__link {
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.auth-form__help-separate {
+    display: block;
+    height: 16px;
+    margin: 0 16px 0;
+    border-left: 1px solid #949494;
+}
+
+.auth-form__link-forgot {
+    color: var(--primary-color);
+}
+
+.header-with-search {
+    height: var(--header-with-search-height);
+    display: flex;
+    align-items: center;
+    margin: 0 8px;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    animation: fadeIn linear 0.1s;
+}
+
+.modal__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.modal__body {
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    animation: growth linear 0.1s;
+}

@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: SVN-AirbnbCereal;
+}
+
+
+@font-face {
+    font-family: 'SVN-AirbnbCereal';
+    src: url('../fonts/SVN-AirbnbCereal-Bold.eot');
+    src: url('../fonts/SVN-AirbnbCereal-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/SVN-AirbnbCereal-Bold.woff2') format('woff2'), url('./fonts/SVN-AirbnbCereal-Bold.woff') format('woff'), url('./fonts/SVN-AirbnbCereal-Bold.ttf') format('truetype'), url('./fonts/SVN-AirbnbCereal-Bold.svg#SVN-AirbnbCereal-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SVN-AirbnbCereal';
+    src: url('../fonts/SVN-AirbnbCereal-Book.eot');
+    src: url('../fonts/SVN-AirbnbCereal-Book.eot?#iefix') format('embedded-opentype'), url('../fonts/SVN-AirbnbCereal-Book.woff2') format('woff2'), url('./fonts/SVN-AirbnbCereal-Book.woff') format('woff'), url('./fonts/SVN-AirbnbCereal-Book.ttf') format('truetype'), url('./fonts/SVN-AirbnbCereal-Book.svg#SVN-AirbnbCereal-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SVN-AirbnbCereal';
+    src: url('../fonts/SVN-AirbnbCereal-Medium.eot');
+    src: url('../fonts/SVN-AirbnbCereal-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/SVN-AirbnbCereal-Medium.woff2') format('woff2'), url('./fonts/SVN-AirbnbCereal-Medium.woff') format('woff'), url('./fonts/SVN-AirbnbCereal-Medium.ttf') format('truetype'), url('./fonts/SVN-AirbnbCereal-Medium.svg#SVN-AirbnbCereal-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SVN-AirbnbCereal';
+    src: url('../fonts/SVN-AirbnbCereal-Light.eot');
+    src: url('../fonts/SVN-AirbnbCereal-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/SVN-AirbnbCereal-Light.woff2') format('woff2'), url('./fonts/SVN-AirbnbCereal-Light.woff') format('woff'), url('./fonts/SVN-AirbnbCereal-Light.ttf') format('truetype'), url('./fonts/SVN-AirbnbCereal-Light.svg#SVN-AirbnbCereal-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SVN-AirbnbCereal';
+    src: url('../fonts/SVN-AirbnbCereal-ExtraBold.eot');
+    src: url('../fonts/SVN-AirbnbCereal-ExtraBold.eot?#iefix') format('embedded-opentype'), url('../fonts/SVN-AirbnbCereal-ExtraBold.woff2') format('woff2'), url('./fonts/SVN-AirbnbCereal-ExtraBold.woff') format('woff'), url('./fonts/SVN-AirbnbCereal-ExtraBold.ttf') format('truetype'), url('./fonts/SVN-AirbnbCereal-ExtraBold.svg#SVN-AirbnbCereal-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SVN-AirbnbCereal';
+    src: url('../fonts/SVN-AirbnbCereal-Black.eot');
+    src: url('../fonts/SVN-AirbnbCereal-Black.eot?#iefix') format('embedded-opentype'), url('../fonts/SVN-AirbnbCereal-Black.woff2') format('woff2'), url('./fonts/SVN-AirbnbCereal-Black.woff') format('woff'), url('./fonts/SVN-AirbnbCereal-Black.ttf') format('truetype'), url('./fonts/SVN-AirbnbCereal-Black.svg#SVN-AirbnbCereal-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+

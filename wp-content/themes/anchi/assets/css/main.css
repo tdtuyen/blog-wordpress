@@ -1,0 +1,19 @@
+html,body {
+    overflow: unset!important;
+    font-family: 'Quicksand', sans-serif !important;
+}
+.elementor-page {
+    background-color: #fff!important;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Quicksand', sans-serif;
+}
+body.modal-open {
+    overflow: hidden!important;
+}
+.page.type-page {
+    min-height: 60vh;
+}
+.elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 1230px;
+}
